@@ -5,3 +5,6 @@ for i in chr2\t chr3\t chr21\t
 do
 grep -P "$i" hg19.gtf > $i.gtf
 done
+
+# Hi Sohil, you are close. How would the user specify the file?
+# Also, how can you make directories
